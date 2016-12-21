@@ -1,0 +1,63 @@
+#j_idt126-resizer {
+    background-color: red;
+}
+
+#j_idt13-resizer {
+    background-color: red;
+}
+
+#loginForm {
+    margin-top: 100px;
+}
+.wizardPanel {
+    background: lightblue;
+   
+    border-left: black;
+    border-bottom: thin solid #aaa;
+    border-top: thin solid green;
+    border-right: thin solid #ccc;
+    margin-top: 30px;
+    height: 410px;
+    
+}
+.work {
+    margin-bottom: 100px;
+    background: lightblue;
+   text-decoration: darkblue;
+   font-size: 1.7em;
+   
+}
+.heading {
+    background: black;
+    border-bottom: thin solid black;
+    border-left: thin solid red;
+    border-top: thin solid #ccc;
+    border-right: thin solid #ccc;
+    width: 97%;
+    padding: 10px;
+    font-size: 1.2em;
+}
+.subheading {
+    background: lightgray;
+    font-size: 1.0em;
+    width: 97%;
+    border-left: thin solid yellowgreen;
+    border-bottom: thin solid blueviolet;
+    border-top: thin solid black;
+    border-right: thin solid darkblue;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    height: 30px;
+
+    
+}
+.p
+{
+    text-color:black;
+    text-height: 100em;
+    font-size: 100em;
+}
+.controls {
+    font-size: 0.8em;
+}

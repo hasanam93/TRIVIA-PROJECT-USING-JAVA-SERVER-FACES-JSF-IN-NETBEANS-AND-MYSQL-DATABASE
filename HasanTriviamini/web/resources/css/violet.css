@@ -1,0 +1,111 @@
+.ui-widget, .ui-widget-content
+{
+font-size: 12px !important ;
+color: white;
+}
+.ui-layout-north{
+    z-index:20 !important;
+    overflow :visible !important;
+}
+
+.ui-layout-north .uilayout-unit-content{
+    overflow:visible !important;
+    background-color: darkviolet;
+    color: white;
+    
+}
+ui-widget-header{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.ui-datatable-footer .ui-button{
+    float:left;
+    margin-top: 25px !important;
+    backgroun-color:violet;
+    
+}
+.ui-button{
+    margin-top:10px !important;
+background-color: sienna;    
+}
+
+.ui-panelgrid td, .ui-panelgrid tr
+{
+    border-style: none;
+    
+}
+.ui-panel{
+    border-style: none;
+}
+.buy{
+    background-color: violet;
+    color:yellow;
+    font:40px;
+    
+}
+
+.button-noborder
+{
+background: white;
+border-color : white;
+border:100%;
+height:25px;
+display:inline-block;
+font-family:'pluto_sansthin';
+font-size:  1.4em;
+}
+.right,.left,.right .ui-widget-content, .left .ui-widget-content
+{
+    background-color:lightcoral;
+    color:white;
+    height: 100%;
+    z-index: 20;
+    overflow: visible;
+}
+.ui-widget-content .ui-datatable-odd
+{
+    background-color: lightcoral;
+    
+}
+.ui-widget-content .ui-datatable-even
+{
+    background-color: tan;
+    
+}
+.ui-state-default
+{
+    background-color: darkviolet;
+    
+color: whitesmoke;}
+.ui-datatable-header, .ui-datatable-footer, .ui-paginator
+{
+    background-color: violet;
+    color:yellow;
+    
+}
+.ui-menu
+{
+    background-color:violet;
+    color:white;
+    z-index: 20;
+    
+}
+.ui-menubar .ui-widget-content, .ui-widget-content
+{
+    background-color: sienna;
+}
+.ui-menu-list
+{
+    background-color: sienna;
+    color:white;
+    
+}
+.footer .ui-widget-content, .footer, .ui-layout-south
+{
+    background-color: darkviolet;
+    color: white;
+    height: 100%;
+    width: 100%;
+    
+}

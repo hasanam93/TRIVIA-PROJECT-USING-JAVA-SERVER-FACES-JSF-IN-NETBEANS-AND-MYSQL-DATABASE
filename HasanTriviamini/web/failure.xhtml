@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>Facelet Title</title>
+
+    </h:head>
+   
+    <h:body >
+        <ui:composition template="template.xhtml">
+            <ui:define name="header">
+               
+                
+            </ui:define>
+            <ui:define name="content">
+<h:head>
+    <ui:define name="subheading">
+    <title>#{msgs.title}"</title>
+    </ui:define>
+    <h:outputStylesheet name="css/jsfcrud.css"/>
+     <h3 class="title">#{userController.selected.firstname}</h3>
+  </h:head>
+  <h:body>
+    <h:form>
+      <p>
+          <h3  style=" color: red"> #{msgs.stillNotCorrect} </h3>
+          <h:outputFormat value="#{msgs.correctAnswer}" style="color: green">
+          <f:param value="#{quizBean.answer}"/>
+        </h:outputFormat>
+      </p>
+      <p>#{msgs.nextProblem}</p>
+      <p>#{quizBean.categories}</p>
+      <p>#{quizBean.question}</p>
+      <p><p:keyboard value="#{quizBean.response}"/></p>
+      <p>
+        <h:commandButton value="#{msgs.checkAnswer}"
+                         action="#{quizBean.answerAction}"/>
+      </p>
+    </h:form>
+  </h:body>
+</ui:define>
+        </ui:composition>
+    </h:body>
+</html>
+
